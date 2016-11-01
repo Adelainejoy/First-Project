@@ -1,0 +1,210 @@
+.container {
+display: flex;
+height: auto;
+color: #2d2d2d;
+flex-direction: column;
+}
+
+header{
+display: flex;
+background-color: black;
+height: auto;
+justify-content: space-between;
+}
+
+.logo {
+display: flex;
+height: 30px;
+justify-content: flex-start;
+}
+
+.logo img {
+  width: 200px;
+}
+
+body{
+color: #2d2d2d;
+}
+
+nav {
+display:flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+nav a{
+text-decoration: none;
+color:#fff;
+font-size: 20px;
+padding: 10px;
+justify-content: flex-end;
+}
+
+nav ul{
+  list-style-type: none;
+  display:flex;
+  text-transform: uppercase;
+  justify-content: flex-end;
+}
+
+nav a:hover{
+background-color:#b64036;
+}
+
+.primarycontent{
+background: url("images/kayak-bkgd.jpg");
+background-size: cover;
+height: 700px;
+background-position: center;
+font-family: karla, sans-serif;
+text-align: center;
+padding-top: 70px;
+}
+
+.background img{
+  max-width: 100%;
+}
+
+.primarycontent h3{
+  font-family: pacifico, sans serif;
+  font-size: 35px;
+}
+
+.article{
+height: 20px;
+width: 450px;
+background-color: black;
+margin: 40px 0 0 500px;
+text-align: center;
+}
+
+.info h2{
+padding-top: 35px;
+text-align: center;
+}
+
+h1{
+font-size: 110px;
+font-family: pacifico, sans-serif;
+text-align: center;
+}
+
+h3 {
+font-size: 35px;
+font-family: pacifico;
+text-align: center;
+padding-top: 40px;
+}
+
+h2{
+text-transform: uppercase;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: #e2574c;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+button :hover {
+background-color: #b64036;
+border-radius: 10px;
+width: 80px;
+height: 20px;
+}
+
+article {
+  text-align: center;
+  padding: 40px 0 40px;
+}
+
+.features{
+ display:flex;
+ flex-direction: row;
+ height: auto; 
+ flex-basis: 32%;
+}
+
+.images {
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: center;
+margin-left: 20px;
+}
+
+
+table th {
+  background-color: #e6e6e6;
+  font-size: 12px;
+  padding-top: 7px;
+}
+table th:hover {
+  background-color: #fbf6d9;
+}
+table, tr,td {
+  border: 1px solid #e6e6e6;
+  text-align: center;
+  padding-top: 5px;
+
+
+}
+table {
+  border-collapse: collapse;
+  font-family: Karla, pacifico, sans-serif;
+  width: 450px;
+  height: 150px;
+}
+
+.secondarycontent {
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  justify-content: space-around;
+}
+span {
+  color: #f91904;
+}
+
+.content {
+  justify-content: flex-start;
+  margin-left: 35px;
+  line-height: 1.3;
+}
+
+.tabletime {
+  justify-content: center;
+
+}
+
+article p {
+  line-height: 1.6;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.google-maps {
+display: flex;
+position: relative;
+padding-bottom: 75%;
+height: 0;
+overflow: hidden;
+background-color: black;
+color:white;
+}
+
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+
